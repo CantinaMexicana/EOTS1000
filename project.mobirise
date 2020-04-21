@@ -1422,25 +1422,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline=\"\" mbr-article=\"\">\n                <blockquote> <b>Utwórz własną stronę internetową za pomocą kilku kliknięć</b> Jako wszechstronny edytor z funkcją przeciągania i upuszczania, \"Mobirise\" pomaga skrócić czas przygotowania projektu, tworząc dopasowujące się i <b>przyjazne urządzeniom mobilnym, strony internetowe,</b> za pomocą zaledwie kilku kliknięć. \"Mobirise\" to jedno z najłatwiejszych w użyciu narzędzi do tworzenia stron internetowych, <a href=\"https://mobirise.co/\">dostępnych</a> dzisiaj. Możesz utworzyć tyle stron, ilu potrzebujesz.</blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rWLLuLHa3h",
-          "_anchor": "content2-e",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
