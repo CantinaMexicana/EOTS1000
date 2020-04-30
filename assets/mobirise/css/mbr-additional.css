@@ -712,12 +712,12 @@ section.lazy-placeholder:after {
 }
 .cid-rWJRiGrAoS .navbar {
   padding: .5rem 0;
-  background: #073b4c;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rWJRiGrAoS .navbar-dropdown.bg-color.transparent.opened {
-  background: #073b4c;
+  background: #c1c1c1;
 }
 .cid-rWJRiGrAoS a {
   font-style: normal;
@@ -808,7 +808,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rWJRiGrAoS .dropdown .dropdown-menu {
-  background: #073b4c;
+  background: #c1c1c1;
   visibility: hidden;
   display: block;
   position: absolute;
